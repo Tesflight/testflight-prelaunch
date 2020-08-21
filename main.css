@@ -1,0 +1,108 @@
+body {
+  min-height: 100vh;
+  /* background: linear-gradient(to bottom, #fff 0%, #fff 30%, #1E6FF0 30%, #1E6FF0 50%, hsl(194, 96%, 55%) 100%); */
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', arial, sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: .78125;
+  font-weight: 600;
+  letter-spacing: -.015em;
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 15px;
+  background: #1e6ff0;
+  border: none;
+  color: white;
+  font-weight: 300;
+  line-height: 1.33;
+  border-radius: 20px;
+}
+
+button.primary {
+  padding: 8px 20px;
+}
+
+button.primary:hover {
+  opacity: .9;
+}
+
+button.secondary {
+  font-weight: 400;
+  border: 2px solid #1e6ff0;
+  color: #1e6ff0;
+  background: white;
+  padding: 6px 16px;
+}
+
+button.secondary:hover {
+  opacity: .8;
+}
+
+button#subscribe {
+  margin-left: 10px;
+}
+
+.button-group {
+  margin-top: 30px;
+}
+
+img.rocket {
+  margin-top: 150px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 128px;
+    margin-top: 80px;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  img.rocket {
+    margin-top: 50px;
+  }
+
+  .button-group {
+    margin-top: 30px;
+  }
+
+  button.primary {
+    padding: 8px 30px;
+  }
+
+  button.secondary {
+    padding: 6px 26px;
+  }
+
+  button#subscribe {
+    margin-left: 50px;
+  }
+}
