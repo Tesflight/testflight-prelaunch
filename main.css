@@ -28,7 +28,7 @@ h2 {
   margin-top: 20px;
 }
 
-button {
+.button {
   font-size: 15px;
   background: #1e6ff0;
   border: none;
@@ -38,15 +38,15 @@ button {
   border-radius: 20px;
 }
 
-button.primary {
+.button.primary {
   padding: 8px 20px;
 }
 
-button.primary:hover {
+.button.primary:hover {
   opacity: .9;
 }
 
-button.secondary {
+.button.secondary {
   font-weight: 400;
   border: 2px solid #1e6ff0;
   color: #1e6ff0;
@@ -54,15 +54,15 @@ button.secondary {
   padding: 6px 16px;
 }
 
-button.secondary:hover {
+.button.secondary:hover {
   opacity: .8;
 }
 
-button#subscribe {
+.button#subscribe {
   margin-left: 10px;
 }
 
-.button-group {
+..button-group {
   margin-top: 30px;
 }
 
@@ -82,7 +82,7 @@ img.rocket {
     margin-top: 40px;
   }
 
-  button {
+  .button {
     font-size: 18px;
   }
 
@@ -90,19 +90,19 @@ img.rocket {
     margin-top: 50px;
   }
 
-  .button-group {
+  ..button-group {
     margin-top: 30px;
   }
 
-  button.primary {
+  .button.primary {
     padding: 8px 30px;
   }
 
-  button.secondary {
+  .button.secondary {
     padding: 6px 26px;
   }
 
-  button#subscribe {
+  .button#subscribe {
     margin-left: 50px;
   }
 }
