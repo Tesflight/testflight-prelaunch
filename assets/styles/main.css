@@ -25,7 +25,7 @@ h2 {
   line-height: 1.1;
   font-weight: 600;
   letter-spacing: 0em;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .button {
@@ -72,6 +72,12 @@ img.rocket {
   width: 100%;
 }
 
+img.logo {
+  height: 90px;
+  vertical-align: sub;
+  margin-right: 10px;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 128px;
@@ -80,7 +86,7 @@ img.rocket {
 
   h2 {
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .button {
@@ -91,8 +97,12 @@ img.rocket {
     margin-top: 50px;
   }
 
-  ..button-group {
-    margin-top: 30px;
+  img.logo {
+    height: 140px;
+  }
+
+  .button-group {
+    margin-top: 40px;
   }
 
   .button.primary {
